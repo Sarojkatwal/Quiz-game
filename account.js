@@ -1,4 +1,3 @@
-var s=0;
 function checkaccount(){
 	var x=confirm("If you have account press OK.");
 	if(x==true){
