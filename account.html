@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create account</title>
+	<link rel="stylesheet" type="text/css" href="account.css">
+	<script type="text/javascript" src="account.js"></script>
+</head>
+<body onload="checkaccount()">
+	<div class="class1" id="div1">
+	<h1>Create your account here</h1>
+	<form>
+	Username: <input type="text" placeholder="sarojkatwal@sk.com" autocomplete="off" class="c1" id="aaa" onblur="checkusername(this)" required><br>
+	password: <input type="password" autocomplete="off" required class="c1" id="aab"><br>
+	Show password<input type="checkbox" autocomplete="off" onchange="showpass(this,'aab')"><br>
+	<input type="button" value="Submit" onclick="saveid('aaa','aab')">
+	</form>
+	</div>
+	<div class="class2" id="div2">
+		<h1>Submit your username and password to enter</h1>
+		Username: <input type="text" required placeholder="sarojkatwal@sk.com" class="c1" onblur="checkusername(this)" id='bba'><br>
+		password: <input type="password" autocomplete="off" required class="c1" id="bbb"><br>
+		Show password<input type="checkbox" autocomplete="off" onchange="showpass(this,'bbb')"><br>
+		<input type="button" value="Submit" onclick="checkidpass('bba','bbb')">
+	</div>
+</body>
+</html>

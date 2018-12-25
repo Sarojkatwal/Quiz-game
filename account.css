@@ -1,0 +1,23 @@
+body{
+	font-size: 30px;
+	background-color: pink;
+	display: block;
+}
+input[class="c1"]{
+	width: 180px;
+	height: 30px;
+}
+input[class="c1"]:focus{
+	width: 220px;
+	transition: width 1s;
+}
+input[type="button"]{
+	width: 80px;
+	height: 30px;
+	background-color: skyblue;
+}
+input[type="button"]:hover{
+	color:white;
+	width: 95px;
+	height: 44px;
+}
