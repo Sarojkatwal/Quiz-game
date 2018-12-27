@@ -17,9 +17,9 @@ function setbg(){
 	var y=document.getElementById('abc').value;
 	x.style.backgroundColor=y;
 }
-var y=setInterval(SCREEN,1000);
-function SCREEN(){
+//var y=setInterval(SCREEN,1000);
+/*function SCREEN(){
 	if(window.innerWidth!=1366 || window.innerHeight!=655){
 		alert("Full screen your browser's window");
 	}
-}
+}*/
